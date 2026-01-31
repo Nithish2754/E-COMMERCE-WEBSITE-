@@ -1,16 +1,77 @@
-# React + Vite
+# 🛒 Modern E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack, responsive e-commerce application built with **React**, **Vite**, and **Express/SQLite**. This project features a premium UI with smooth animations, interactive product management, and a robust backend.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Optimized for mobile, tablet, and desktop views.
+- **Interactive UI**: Powered by `framer-motion` for smooth transitions and `lucide-react` for modern iconography.
+- **Product Management**: Real-time sales charts using `recharts` and interactive galleries with `react-image-gallery`.
+- **Advanced UI Elements**: 
+  - Dynamic animations with Framer Motion
+  - Zoom-on-hover functionality (`react-zoom-pan-pinch`)
+  - Toast notifications (`react-hot-toast`)
+  - Metadata management (`react-helmet-async`)
+- **Backend Architecture**: Express server with SQLite database and API verification scripts.
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- **React 19** + **Vite**
+- **Routing**: `react-router-dom`
+- **Animations**: `framer-motion`
+- **Charts**: `recharts`
+- **Icons**: `lucide-react`
 
-## Expanding the ESLint configuration
+### Backend
+- **Node.js** + **Express**
+- **Database**: SQLite (ecommerce.db)
+- **Utilities**: Seed scripts, DB verification, and API testing tools.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Setup Instructions
+
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- Git
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Nithish2754/E-COMMERCE-WEBSITE-.git
+   cd E-COMMERCE-WEBSITE-
+   ```
+
+2. **Frontend Setup**:
+   ```bash
+   npm install
+   ```
+
+3. **Backend Setup**:
+   ```bash
+   cd backend
+   npm install
+   ```
+
+## 🏃 Running the Application
+
+1. **Start the Backend**:
+   ```bash
+   cd backend
+   npm start # or node server.js
+   ```
+
+2. **Start the Frontend**:
+   ```bash
+   # In the root directory
+   npm run dev
+   ```
+
+## 📂 Project Structure
+
+- `/src`: React components, hooks, and application logic.
+- `/backend`: Express server, SQLite database, and API routes.
+- `/public`: Static assets.
+
+---
+Built with ❤️ by [Nithish2754](https://github.com/Nithish2754)
